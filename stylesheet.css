@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background: #00b09b; 
+    background: -webkit-linear-gradient(to right, #00b09b, #96c93d); 
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    font-family: "Bungee Inline";
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+    margin-top: 10%;
+}
+
+.header {
+    
+}
+
+.header h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 15px;
+    color: white;
+}
+
+.chart {
+    width: 90%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bitcoin {
+    
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .header h1 {
+        font-size: 30px;
+    }
+    
+    .header p {
+        font-size: 10px;
+    }
+    
+}
