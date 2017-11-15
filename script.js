@@ -1,5 +1,5 @@
 var url = 'https://api.coindesk.com/v1/bpi/historical/close.json?start=2013-01-01&end=2017-06-01';
-// API from https://www.coindesk.com/api/ and https://api.coindesk.com/v1/bpi/historical/close.json?start=2013-01-01&end=2017-06-01
+console.log("API from https://www.coindesk.com/api/ and https://api.coindesk.com/v1/bpi/historical/close.json?start=2013-01-01&end=2017-06-01");
 
 fetch(url)
 
